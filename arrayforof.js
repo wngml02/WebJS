@@ -15,12 +15,11 @@ let voteCounter = {};
 
 // votes 배열을 이용해서 voteCounter 객체를 정리하기
 for (let name of votes) {
-  // 코드를 작성하세요.
   if (name in voteCounter){
-    voteCounter[name] += 1;
-  }
+    voteCounter[name] += 1; //해당 이름이 저장되어 있으면, +1
+  } // 해당 이름이 출력할 객체에 존재하는가?
   else{
-    voteCounter[name] = 1;
+    voteCounter[name] = 1; // 없을 경우 해당 이름 추가
   }
 }
 
