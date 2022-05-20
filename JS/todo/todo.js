@@ -1,10 +1,12 @@
 const toDoList = document.querySelector('#to-do-list');
 
+
 function addNewTodo(text) {
 	const newtext = document.createElement("li");
 	newtext.textContent = text;
 	toDoList.append(newtext);
 }
+
 
 // 테스트 코드
 addNewTodo('자바스크립트 공부하기');
