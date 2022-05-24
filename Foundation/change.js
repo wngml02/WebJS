@@ -12,8 +12,8 @@ function calculateChange(payment, cost) {
   console.log(`5000원 지폐: ${fiveCount}장`)
   const oneCount = change / 1000
   console.log(`1000원 지폐: ${oneCount}장`)
-
 }
+
 
 // 테스트 코드
 calculateChange(100000, 33000);
